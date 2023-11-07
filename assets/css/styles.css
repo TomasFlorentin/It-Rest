@@ -1,0 +1,88 @@
+*{
+    text-decoration: none;
+}
+
+/* Barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+}
+
+.barra-navegacion ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.barra-navegacion ul li{
+    padding: 0rem 10rem;
+}
+
+.barra-navegacion ul li a{
+    color: #1e1f26;
+}
+
+.barra-navegacion ul li a:hover{
+    border-bottom: 4px solid #d74898;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 100%;
+    width: auto;
+}
+/* Fin barra navegación */
+
+
+/* Inicio */
+/* Banner de la página inicio */
+#logo-inicio img{
+    width: 100%;
+    height: auto;
+}
+
+
+.button-menu{ /* Boton para acceder al menu */
+    font-size: 1.875rem;
+    background-color: #fd7701;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.imagen-banner{
+    z-index: 5; /* Mandar el objeto atras */
+}
+
+.boton-menu{
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: -20rem;
+}
+/* Fin Inicio */
+
+
+/* Redes Sociales */
+footer{
+    margin-top: 13.5rem;
+}
+
+#redes ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.logos-redes{
+    width: 50%;
+}
+
+.logos-redes:hover{
+    width: 60%;
+}

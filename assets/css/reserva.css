@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin: 10rem;
+    border-radius: 0.8rem;
+}
+
+.container h1{
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+
+.cuadro-input input{
+    width: 30%;
+
+}
