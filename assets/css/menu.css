@@ -12,6 +12,12 @@ h4{
     margin: 0.625rem;
 }
 
+small{
+    width: 70%;
+    margin-left: 0.5rem;
+    margin-top: -0.5rem;
+}
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -40,30 +46,41 @@ h4{
     text-align: right;
 }
 
+.titulo-sandwich{
+    margin-top: 6rem;
+}
+
 .contenedor-titulo-alimento{
     float: right;
     padding-right: 2rem;
 }
 
-small{
-    width: 70%;
-    margin-left: 0.5rem;
-    margin-top: -0.5rem;
-}
-
-.sandwich{
-    margin-top: 6rem;
-}
-
 /* Titulos del menu */
-.titulo-cafeteria{
-    background-color: rgb(255, 208, 0);
+.titulos-alimentos{
     padding: 1.4rem;
     border-radius: 1.875rem;
 }
 
-.titulo-sandwich{
-    background-color: bisque;
-    padding: 1.4rem;
-    border-radius: 1.875rem;
+.cafeteria{
+    background-color: #ffd000;
+}
+
+.sandwich-burger{
+    background-color: #ffe4c4;
+}
+
+.ensaladas{
+    background-color: #5f9ea0;
+}
+
+.tartas{
+    background-color:#6495ed;
+}
+
+.base-plantas{
+    background-color: #AAB573;
+}
+
+.row .titulo-largo{
+    width: 70%;
 }
