@@ -7,6 +7,11 @@ h1{
     text-align: center;
 }
 
+h4{
+    text-align: center;
+    margin: 0.625rem;
+}
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -17,8 +22,8 @@ h1{
 .menu .cuadro-menu{
     margin: 1rem;
     background: #fff;
-    border-radius: 0.313rem;
-    height: 12.5rem;
+    border-radius: 1rem;
+    height: auto;
     width: 25rem;
 }
 
@@ -33,4 +38,32 @@ h1{
     padding: 3%;
     border-radius: 0.313rem;
     text-align: right;
+}
+
+.contenedor-titulo-alimento{
+    float: right;
+    padding-right: 2rem;
+}
+
+small{
+    width: 70%;
+    margin-left: 0.5rem;
+    margin-top: -0.5rem;
+}
+
+.sandwich{
+    margin-top: 6rem;
+}
+
+/* Titulos del menu */
+.titulo-cafeteria{
+    background-color: rgb(255, 208, 0);
+    padding: 1.4rem;
+    border-radius: 1.875rem;
+}
+
+.titulo-sandwich{
+    background-color: bisque;
+    padding: 1.4rem;
+    border-radius: 1.875rem;
 }
