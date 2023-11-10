@@ -1,5 +1,7 @@
 body{
-    background: #e2e1e0;
+    background: #050601;
+    color: #ffffff;
+    margin: 0px;
 }
 
 h1{
@@ -20,14 +22,13 @@ small{
 
 .menu{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Se ajustan a la pantalla */
     justify-content: center;
 }
 
 .menu .cuadro-menu{
     margin: 1rem;
-    background: #fff;
+    background: #9B9893;
     border-radius: 1rem;
     height: auto;
     width: 25rem;
@@ -46,6 +47,12 @@ small{
     text-align: right;
 }
 
+.row .titulo-largo{
+    width: 70%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
 .titulo-sandwich{
     margin-top: 6rem;
 }
@@ -59,6 +66,7 @@ small{
 .titulos-alimentos{
     padding: 1.4rem;
     border-radius: 1.875rem;
+    color: black;
 }
 
 .cafeteria{
@@ -81,6 +89,6 @@ small{
     background-color: #AAB573;
 }
 
-.row .titulo-largo{
-    width: 70%;
+.brunchs{
+    background-color: #B5D6E5;
 }
