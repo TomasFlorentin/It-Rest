@@ -1,17 +1,39 @@
+.main{
+    width: 900px;
+    background-color: antiquewhite;
+    padding: 0px 20px;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+
 .container{
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+
+.linea3{
     display: flex;
-    justify-content: center;
-    background-color: aqua;
-    margin: 10rem;
-    border-radius: 0.8rem;
+    align-items: center;
 }
 
-.container h1{
-    text-align: center;
-    letter-spacing: 0.3rem;
+.part6, .part7{
+    display: flex;
+    width: 50%;
+    align-items: center;
 }
 
-.cuadro-input input{
-    width: 30%;
-
+.subpart1{
+    width: 50%;
 }
+
+.subpart2{
+    width: 50%;
+}
+
+.input1{
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #e6e6e66b;
+    padding: 5px;
+}
+

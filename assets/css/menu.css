@@ -1,5 +1,5 @@
 body{
-    background: #050601;
+    background: #65686c;
     color: #ffffff;
     margin: 0px;
 }
@@ -43,7 +43,7 @@ small{
 
 .row div{
     padding: 3%;
-    border-radius: 0.313rem;
+    border-radius: 3rem;
     text-align: right;
 }
 
@@ -62,6 +62,11 @@ small{
     padding-right: 2rem;
 }
 
+.row .precio{
+    font-weight: 900;
+    
+}
+
 /* Titulos del menu */
 .titulos-alimentos{
     padding: 1.4rem;
@@ -78,7 +83,7 @@ small{
 }
 
 .ensaladas{
-    background-color: #5f9ea0;
+    background-color: #C0A17B;
 }
 
 .tartas{
