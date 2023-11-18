@@ -34,6 +34,10 @@ nav {
     border-bottom: 4px solid #d74898;
 }
 
+.barra-navegacion ul li a:target{
+    border-bottom: 4px solid #d74898;
+}
+
 .logo{
     display: flex;
     justify-content: center;
@@ -88,10 +92,11 @@ footer{
     list-style: none;
 }
 
-.logos-redes{
-    width: 50%;
+#redes p{
+    text-align: center;
 }
 
-.logos-redes:hover{
-    width: 60%;
+.fa-brands{
+    color: #000000;
+    width: 1rem;
 }
