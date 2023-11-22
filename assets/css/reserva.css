@@ -1,82 +1,72 @@
-/* .main{
-    width: 900px;
-    background-color: antiquewhite;
-    padding: 0px 20px;
-    margin: 0px auto;
-    padding-bottom: 50px;
+body{
+    background-color: #050531;
 }
 
-.container{
-    padding: 0px 20px;
-    margin-bottom: 10px;
+.main{
+    width: 56.25rem;
+    background-color: #6495ED;
+    padding: 3rem 1.25rem;
+    margin: 10% auto;
+    margin-bottom: 0rem;
+    border-radius: 1.6875rem;
+    color: #fff;
+    font-size: 1.375rem;
 }
 
-.linea3{
+.contenedor{
+    padding: 0rem 1.25rem;
+}
+
+.linea3,
+.linea4{
+    display: flex;
+    justify-content: center;
+}
+
+.confirmacion{
+    padding-right: .9375rem;
+}
+
+.columna1,
+.columna2{
     display: flex;
     align-items: center;
-}
-
-.part6, .part7{
-    display: flex;
     width: 50%;
-    align-items: center;
+}
+
+.columna1{
+    padding-right: .9375rem;
 }
 
 .subpart1{
-    width: 50%;
+    width: 40%;
 }
 
-.subpart2{
-    width: 50%;
-}
-
-.input1{
+input{
+    width: 60%;
     border: none;
-    border-bottom: 1px solid #000;
-    background-color: #e6e6e66b;
-    padding: 5px;
-} */
-
-
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+    border-bottom: .0625rem solid #000;
+    background-color: transparent;
+    padding: .3125rem;
 }
 
-h1, a{
-    width: 100%;
-    text-align: center;
-    background-color: aqua;
+input:focus-visible {
+    outline: none;
 }
 
-form{
-    width: 30%;
-    background-color: brown;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1.5rem;
-    margin-bottom: 3%;
+.boton-reserva{
+    padding: 1.3rem;
+    border-radius: 0.625rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    color: #f48403;
+    font-weight: bold;
+    transition: .5s;
+    letter-spacing: 0.3rem;
 }
 
-form label, form input{
-    margin-bottom: 0.8rem;
-}
-
-form label{
-    width: 35%;
-}
-
-form input{
-    width: 65%;
-}
-
-form button{
-    align-self: center;
-    margin-top: 0.8rem;
-    width: 100%;
+.boton-reserva:hover{
+    color: #fff;
+    background-color: #f48403;
 }

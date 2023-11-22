@@ -19,6 +19,7 @@
     <title>Reservacion</title>
 </head>
 <body>
+    <!-- Inicio del header -->
     <header>
         <!-- Inicio Barra Navegación -->
         <nav class="barra-navegacion">
@@ -35,41 +36,60 @@
         </nav>
         <!-- Fin Barra de Navegación -->
     </header>
+    <!-- Fin del header -->
     <hr>
-    <div class="main">    
-        <section class="container">
-            <div class="linea3">
-                <!-- Número de Telefono -->
-                <div class="part6">
-                    <p class="subpart1">Numero de Telefono:</p>
-                    <input type="text" class="subpart2 input1">
+    <!-- Inicio del formulario -->
+
+    <section class="main"> <!-- Cuadro del formulario (main)-->
+        <div class="contenedor"> <!-- Almacena todos los elementos -->
+            <div class="linea3"> <!-- linea 3 -->
+                <div class="columna1"> <!-- part 6 -->
+                    <p class="subpart1">Nombre:</p>
+                    <input type="text" required>
                 </div>
-                <!-- Fin número de telefono -->
-                
-                <!-- Email -->
-                <div class="part7">
-                    <p>Email:</p>
-                    <input type="email" class="subpart2 input1">
-                </div>
-                <!-- Fin email -->
-            </div>
-    
-            <div class="linea3">
-                <!-- Numero de id -->
-                <div class="part6">
-                    <p class="subpart1">Nymero de ID:</p>
-                    <input type="text" class="subpart2 input1">
-                </div>
-                <!-- Fin numero de id -->
-    
-                <!-- Numero de seguridad social -->
-                <div class="part7">
-                    <p class="subpart1">Numero de Seguridad Social:</p>
-                    <input type="email" class="subpart2 input1">
+                <div class="columna2"> <!-- part 7 -->
+                    <p class="subpart1">Apellido:</p>
+                    <input type="text" required>
                 </div>
             </div>
-        </section>  
-    </div>
+
+            <div class="linea3"> <!-- linea 3 -->
+                <div class="columna1"> <!-- part 6 -->
+                    <p class="subpart1">Correo Electrónico:</p>
+                    <input type="email" required>
+                </div>
+                <div class="columna2"> <!-- part 7 -->
+                    <p class="subpart1">Teléfono:</p>
+                    <input type="tel" required>
+                </div>
+            </div>
+
+            <div class="linea3"> <!-- linea 3 -->
+                <div class="columna1"> <!-- part 6 -->
+                    <p class="subpart1">Número de Personas:</p>
+                    <input type="number" required>
+                </div>
+                <div class="columna2"> <!-- part 7 -->
+                    <p class="subpart1">Fecha a Reservar:</p>
+                    <input type="datetime-local" required>
+                </div>
+            </div>
+            
+            <div class="linea4">
+                <p class="confirmacion">Recibir confirmación por: </p>
+                <div>
+                    <input type="radio">
+                    <label for="radio">Correo</label>
+                </div>
+                <div>
+                    <input type="radio">
+                    <label for="radio">Telefono</label>
+                </div>
+            </div>
+
+            <a href=""><button type="submit" class="boton-reserva">ENVIAR</button></a>
+        </div>
+    </section>
 
 </body>
 </html>
