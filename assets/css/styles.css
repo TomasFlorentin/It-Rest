@@ -38,6 +38,8 @@ nav {
     border-bottom: 4px solid #d74898;
 }
 
+/*  ################ Página de Inicio ################  */
+
 .logo{
     display: flex;
     justify-content: center;
@@ -100,3 +102,44 @@ footer{
     color: #000000;
     width: 1rem;
 }
+/*  ################ Fin Página de Inicio ################  */
+
+
+/*  ################ Selección de usuario ################  */
+
+.usuario-login{
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usuario-cuadro{
+    padding: 10rem;
+    background-color: rgb(0, 81, 255);
+    border-radius: 2rem;
+}
+
+.usuario-cuadro a{
+    color: #000000;
+    padding: 1rem;
+    background-color: #fd7701;
+    font-size: 1.875rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.usuario-cuadro a:hover{
+    color: #fff;
+}
+/*  ################ Fin Selección de Usuario ################  */
+
+
+/*  ################ Usuario Mesero ################  */
+
+/* 
+Debe tener su propia barra de navegación con 
+
+
+
+*/
