@@ -51,6 +51,7 @@ small{
     width: 70%;
     padding-left: 0rem;
     padding-right: 0rem;
+    margin-left: -2.25rem;
 }
 
 .titulo-sandwich{
@@ -96,4 +97,8 @@ small{
 
 .brunchs{
     background-color: #B5D6E5;
+}
+
+.bebidas{
+    background-color: #D29556;
 }
