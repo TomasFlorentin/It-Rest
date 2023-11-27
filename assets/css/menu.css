@@ -1,6 +1,6 @@
 body{
     background: #65686c;
-    color: #ffffff;
+    color: #000;
     margin: 0px;
 }
 
@@ -28,7 +28,7 @@ small{
 
 .menu .cuadro-menu{
     margin: 1rem;
-    background: #9B9893;
+    background: #ebd7c1e4;
     border-radius: 1rem;
     height: auto;
     width: 25rem;
@@ -79,7 +79,7 @@ small{
 }
 
 .sandwich-burger{
-    background-color: #ffe4c4;
+    background-color: #9B9893;
 }
 
 .ensaladas{

@@ -6,6 +6,10 @@ body{
     margin: 0rem;
 }
 
+h1{
+    text-align: center;
+}
+
 /* Barra de navegación */
 .barra-navegacion {
     background-color: #ffffff;
@@ -100,10 +104,10 @@ footer{
     color: #000000;
     width: 1rem;
 }
-/*  ################ Fin Página de Inicio ################  */
+/*  ################################### Fin Página de Inicio ###################################  */
 
 
-/*  ################ Selección de usuario ################  */
+/*  ################################### Selección de usuario ###################################  */
 
 .usuario-login{
     height: 92vh;
@@ -130,10 +134,10 @@ footer{
 .usuario-cuadro a:hover{
     color: #fff;
 }
-/*  ################ Fin Selección de Usuario ################  */
+/*  ################################### Fin Selección de Usuario ###################################  */
 
 
-/*  ################ Usuario Mesero ################  */
+/*  ################################### Usuario Mesero ###################################  */
 
 /* Barra Navegación del Mesero */
 .navbar-usuario{
@@ -149,10 +153,6 @@ footer{
     padding-left: 0%;
 }
 /* Fin de la Barra de navegación del Mesero */
-
-.plano-restaurante h1{
-    text-align: center;
-}
 
 .borde-contenedor{
     /* Estilos para ordenar las mesas */
@@ -176,6 +176,7 @@ footer{
     align-items: center; /*Con esto centro el boton dentro de todas las mesas*/
 }
 
+/* Se le aplica a cada cuadrado el area de grid que va a usar. Investigar si existe una manera más eficiente a esta */
 .mesa1{
     grid-area: mesa1;
 }
@@ -215,34 +216,86 @@ footer{
 .mesa10{
     grid-area: mesa10;
 }
+/* Fin de el area que usan las mesas */
+
+/* Estilos de la mesa */
 .mesas{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 8.125rem;
-    width: 8.125rem;
-    border: 2px solid black ;
+    height: 12.5rem;
+    width: 12.5rem;
+    border: .125rem solid black ;
+    border-radius: 9rem;
 }
 
-.mesa-rectangular-h{
-    height: 8.125rem;
-    width: 29.375rem;
+.mesa-rectangular-h{ /* Mesa numero 2 Horizontal */
+    height: 12.5rem;
+    width: 41.5rem;
+    border-radius: 2rem;
 }
 
-.mesa-rectangular-v{
-    width: 8.125rem;
-    height: 20.625rem;
+.mesa-rectangular-v{ /* Mesa numero 10 Vertical */
+    height: 28.75rem;
+    width: 12.5rem;
+    border-radius: 2rem;
 }
+/* Fin de los estilos de las mesas */
 
 .mesas button{
     border: none;
     background-color: transparent;
+    padding: 1rem;
 }
 
-/* ################ Usuario Cocinero ################ */
+.mesas button:hover{
+    background-color: #fd7701;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2rem;
+    transform: scale(1.15);
+}
 
-.pedidos-cocinero{
+/* ################################### Usuario Cocinero ################################### */
+
+.contenedor-pedidos{
+    /* Propiedades del grid */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.25rem;
+
+    /* Estilos */
+    margin: 2rem;
+}
+
+.cards{
+    height: 15.625rem;
+    border: 2px solid #000;
+}
+
+/* Estilos de la barra de Mesa y tiempo */
+.barra-pedido{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #0051ff;
 }
 
+.barra-pedido h2, small{
+    margin: .8rem .6rem;
+}
+
+.barra-pedido h2{
+    color: #ffffff;
+}
+
+.barra-pedido small{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Fin Estilos de la barra de Mesa y tiempo */
+
+/* Estilos para los pedidos */
+.pedido{
+
+}
