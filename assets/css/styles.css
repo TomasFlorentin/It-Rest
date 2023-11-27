@@ -3,7 +3,7 @@
 }
 
 body{
-    margin: 0px;
+    margin: 0rem;
 }
 
 /* Barra de navegación */
@@ -50,7 +50,7 @@ body{
 /* Fin barra navegación */
 
 hr{
-    margin: 0px;
+    margin: 0rem;
 }
 
 /* Inicio */
@@ -148,15 +148,101 @@ footer{
     font-size: 1.2rem;
     padding-left: 0%;
 }
-
 /* Fin de la Barra de navegación del Mesero */
 
+.plano-restaurante h1{
+    text-align: center;
+}
 
-/* 
+.borde-contenedor{
+    /* Estilos para ordenar las mesas */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0; /* Esto lo que hace es hacer una separación entre los cuadrados de grid */
+    grid-template-areas:"mesa1 mesa2 mesa2 mesa3" 
+                        "mesa4 mesa5 mesa6 mesa10"
+                        "mesa7 mesa8 mesa9 mesa10"; /*Defino el espacio que va a ocupar cada celda en toda el grid (Esto solo se le aplica a cada contenedor de la mesa*/
 
-Debe tener su propia barra de navegación con 
+    /* Estilos del contenedor */
+    margin: 2rem;
+    height: 80vh;
+    border: .3125rem solid #000;
+}
 
+.contenedor-mesas{
+    display: flex;
+    justify-content: center;
+    align-items: center; /*Con esto centro el boton dentro de todas las mesas*/
+}
 
-*/
+.mesa1{
+    grid-area: mesa1;
+}
+
+.mesa2{
+    grid-area: mesa2;
+}
+
+.mesa3{
+    grid-area: mesa3;
+}
+
+.mesa4{
+    grid-area: mesa4;
+}
+
+.mesa5{
+    grid-area: mesa5;
+}
+
+.mesa6{
+    grid-area: mesa6;
+}
+
+.mesa7{
+    grid-area: mesa7;
+}
+
+.mesa8{
+    grid-area: mesa8;
+}
+
+.mesa9{
+    grid-area: mesa9;
+}
+
+.mesa10{
+    grid-area: mesa10;
+}
+.mesas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8.125rem;
+    width: 8.125rem;
+    border: 2px solid black ;
+}
+
+.mesa-rectangular-h{
+    height: 8.125rem;
+    width: 29.375rem;
+}
+
+.mesa-rectangular-v{
+    width: 8.125rem;
+    height: 20.625rem;
+}
+
+.mesas button{
+    border: none;
+    background-color: transparent;
+}
 
 /* ################ Usuario Cocinero ################ */
+
+.pedidos-cocinero{
+    display: flex;
+    flex-wrap: wrap;
+}
+
